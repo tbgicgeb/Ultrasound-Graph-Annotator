@@ -1,3 +1,6 @@
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.dcm filter=lfs diff=lfs merge=lfs -text
 image_annotation_video.mp4 filter=lfs diff=lfs merge=lfs -text
 windows/UGA_windows_images.zip filter=lfs diff=lfs merge=lfs -text
 test_patient_video_folder/video1.dcm filter=lfs diff=lfs merge=lfs -text
